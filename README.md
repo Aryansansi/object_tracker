@@ -30,7 +30,7 @@ This project implements object detection using both a custom model based on VGG1
 
 1. **Clone the repository**:
    ```bash
-   git clone <repository-url>
+   git clone <github.com/Aryansansi/object_tracker>
    cd Object-Detection-Project
    ```
 
