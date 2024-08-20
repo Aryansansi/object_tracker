@@ -10,7 +10,7 @@ from win32api import GetSystemMetrics
 device = 'cuda' if torch.cuda.is_available() else 'cpu'
 model = torch.hub.load('ultralytics/yolov5', 'yolov5s', pretrained=True)
 model.to(device)
-model.eval()  # Set the model to evaluation mode
+model.eval()  # Set the model to evaluation model
 
 # Define the RTSP stream URL
 rtsp_url = RTSP_URLS
